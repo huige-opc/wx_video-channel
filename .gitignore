@@ -29,3 +29,4 @@ pkg/pkg/
 asr_*/
 抽取音频.bat
 转文字.bat
+bin/
