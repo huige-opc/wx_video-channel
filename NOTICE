@@ -1,0 +1,19 @@
+本项目基于 nobiyou/wx_channel（MIT License）二次开发。
+
+== 原始项目 ==
+- 仓库：https://github.com/nobiyou/wx_channel
+- 版权：Copyright (c) 2025 nobiyou
+- 许可：MIT License（完整条款见同目录 LICENSE 文件，予以原样保留）
+
+== 二次开发 ==
+- 版权：Copyright (c) 2026 huige-opc
+- 主要新增/改动：
+  - 视频抽音频脚本 extract_audio.py（ffmpeg）
+  - 百度短语音识别转录脚本 transcribe.py
+  - AI 逐字稿清洗 Skill（SKILL.md）
+  - 静默启动 / 守护脚本 start.vbs、guard.vbs
+  - 目录更名为 wx_video-channel，并同步相关路径引用
+  - 使用手册 README.md
+
+本二次开发遵循原始项目的 MIT License：原作者的版权与许可声明（LICENSE）
+在本项目所有副本中予以保留；上述二次开发部分的版权归二开作者所有。

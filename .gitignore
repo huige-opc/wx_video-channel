@@ -1,0 +1,34 @@
+# 编译产物
+*.exe
+!butterfly.ico
+*.dll
+*.so
+*.dylib
+
+# 运行时生成
+downloads/
+logs/
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# 配置文件（含敏感信息）
+config.yaml
+hardware_fingerprint.json
+._processing.lock
+
+# 构建缓存
+vendor/
+bin/
+/tmp/
+__pycache__/
+*.pyc
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
