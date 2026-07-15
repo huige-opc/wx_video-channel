@@ -18,3 +18,9 @@ libwinpthread-1.dll
 
 # 编译资源对象文件
 *.syso
+
+# 双嵌套遗留路径
+pkg/pkg/
+
+# 编译产物
+蝴蝶号下载助手.exe
